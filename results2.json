@@ -1,0 +1,22 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_build_lm": {
+    "english_2_gram_length": 748,
+    "english_3_gram_length": 8239,
+    "french_3_gram_length": 8286,
+    "spanish_3_gram_length": 8469
+  },
+  "test_eval": "TypeError('locals must be a mapping')",
+  "test_match": "TypeError('locals must be a mapping')",
+  "test_generate": {
+    "english_2_gram": "I am Y oretthayer D\u272d\ud83d\udcca\ub298\ud83d\udcaa\u300e",
+    "english_3_gram": "I am j\u00c2\ud83c\udff3\ud83d\udd2b\ud790\ud0dc\uff37\ud83c\udfd4\u263a\ud83c\udffd\ud83e\udd25\u1d5b\u2642\u1d57\u77e5\u7a7a\ub298\ud83d\udcaa\u0e48",
+    "english_4_gram": "I Love \ud83d\ude40\u279f\ud83c\udff3\ud83d\udd2b\ud790\ud0dc\uff37\ud83c\udfd4\u263a\ud83c\udffd\ud83e\udd25\u1d5b\u2642\u1d57\u77e5\u7a7a\ub298\ud83d\udcaa\u0e48",
+    "spanish_2_gram": "Soy D orend\u00e9 #EN2\ud83c\udf7b\u77e5\u7a7a\u264b\ud83d\udcaa\ud83d\udc25",
+    "spanish_3_gram": "Soy D\u00ed\ud83e\udd12\ud83d\udd2b\ud790\ud0dc\uff37\ud83c\udfd4\u263a\ud83c\udffd\ud83e\udd25\u1d5b\u2642\u1d57\u77e5\u7a7a\ub298\ud83d\udcaa\u0e48",
+    "french_2_gram": "Je suis D ohterh8\u062b\ud83e\udd25\u1d5b\u2642\ud83c\udd7f\u77e5\u7a7a\ub298\ud83d\udcaa\u0e48",
+    "french_3_gram": "Je suis quif\uc2e0\ud0dc\uff37\ud83c\udfd4\u263a\ud83c\udffd\ud83e\udd25\u1d5b\u2642\u1d57\u77e5\u7a7a\ub298\ud83d\udcaa\u0e48"
+  }
+}
